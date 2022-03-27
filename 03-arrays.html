@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const favoriteCookies = [
+            "chocolate chip",
+            "iced oatmeal",
+            "sugar cookie",
+            "butter cookie"
+        ];
+        //adds an element to the end of the array
+        favoriteCookies.push("windmill cookies");
+        //removes an element from the end of the array
+        let cookie = favoriteCookies.pop();
+
+        console.log(favoriteCookies);
+        console.log("I am so sad because I'm losing - windmill cookies");
+
+        //get the item in array
+        let fav = 2;
+        console.log("the number 2 of array is: " + favoriteCookies[fav]); //show sugger cookie
+        //calculator the length of array
+        console.log(favoriteCookies.length);
+        //get the number of elements in array 
+        console.log(favoriteCookies[favoriteCookies.length-1]); //show butter cokkies
+    </script>
+</body>
+</html>
